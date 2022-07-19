@@ -1,9 +1,13 @@
 import React from 'react';
+import ExampleComponent from "./components/ExampleComponent";
+import ExampleHook from "./components/ExampleHook";
 
 function App() {
     return (
-        <div>
-        </div>
+        <>
+            <ExampleComponent/>
+            <ExampleHook/>
+        </>
     );
 }
 

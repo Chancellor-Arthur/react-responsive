@@ -1,6 +1,15 @@
 {
   "name": "react-responsive",
+  "type": "module",
+  "source": "src/hook/useMediaQuery.ts",
   "version": "0.1.0",
+  "exports": {
+    "require": "./dist/useMediaQuery.cts",
+    "default": "./dist/useMediaQuery.modern.ts"
+  },
+  "main": "./dist/useMediaQuery.cts",
+  "module": "./dist/useMediaQuery.module.ts",
+  "unpkg": "./dist/useMediaQuery.umd.ts",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -39,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.0",
+    "prettier": "^2.7.1"
   }
 }
