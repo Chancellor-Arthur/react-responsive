@@ -1,5 +1,5 @@
 import React, {ReactNode} from 'react';
-import {useMediaQuery} from "../hook/useMediaQuery";
+import {default as useMediaQuery} from "../hook/useMediaQuery";
 import {parse} from "../auxiliary/parse";
 
 type formatString = `${number}dppx`;
@@ -29,8 +29,8 @@ const MediaQuery =
         const answer = useMediaQuery({query: parse(props)});
         return (
             typeof (children) === 'function'
-                ? <>{children(answer)}</>
-                : answer ? <>{children}</> : null
+                ? <div>{children(answer)}</div>
+                : answer ? <div>{children}</div> : null
         );
     };
 

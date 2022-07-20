@@ -1,7 +1,7 @@
 import React from 'react';
 import MediaQuery from "./MediaQuery";
 
-const Example = () => (
+const ExampleComponent = () => (
     <div>
         <h1>Device Test!</h1>
         <MediaQuery minWidth={1224}>
@@ -20,6 +20,6 @@ const Example = () => (
             }
         </MediaQuery>
     </div>
-)
+);
 
-export default Example;
+export default ExampleComponent;

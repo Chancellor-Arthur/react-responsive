@@ -1,20 +1,14 @@
 {
-  "name": "react-responsive",
-  "type": "module",
-  "source": "src/hook/useMediaQuery.ts",
+  "name": "@chancellor-arthur/react-responsive",
+  "source": "src/react-responsive.tsx",
+  "main": "dist/react-responsive.js",
   "version": "0.1.0",
-  "exports": {
-    "require": "./dist/useMediaQuery.cts",
-    "default": "./dist/useMediaQuery.modern.ts"
-  },
-  "main": "./dist/useMediaQuery.cts",
-  "module": "./dist/useMediaQuery.module.ts",
-  "unpkg": "./dist/useMediaQuery.umd.ts",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
+  "module": "dist/react-responsive.mjs",
+  "unpkg": "dist/react-responsive.umd.js",
+  "types": "dist/react-responsive.d.ts",
+  "amdName": "ReactResponsive",
+  "private": false,
+  "devDependencies": {
     "@types/jest": "^27.5.2",
     "@types/node": "^16.11.45",
     "@types/react": "^18.0.15",
@@ -23,14 +17,25 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.7.4",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "microbundle": "^0.15.0",
+    "prettier": "^2.7.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "microbundle --no-compress --globals react=React --strict",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chancellor-Arthur/react-responsive.git"
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -48,9 +53,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "microbundle": "^0.15.0",
-    "prettier": "^2.7.1"
   }
 }

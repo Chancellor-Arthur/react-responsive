@@ -1,5 +1,5 @@
 import React from 'react'
-import {useMediaQuery} from "../hook/useMediaQuery";
+import {default as useMediaQuery} from "../hook/useMediaQuery";
 
 const ExampleHook = () => {
     const isDesktopOrLaptop = useMediaQuery({
