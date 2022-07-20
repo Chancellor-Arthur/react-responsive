@@ -55,3 +55,13 @@
     );
     
     export default ExampleComponent;
+
+## Expected props for this component:
+
+    orientation
+    minResolution
+    maxResolution
+    minWidth
+    maxWidth
+    minHeight
+    maxHeight

@@ -2,7 +2,7 @@
   "name": "@chancellor-arthur/react-responsive",
   "source": "src/react-responsive.tsx",
   "main": "dist/react-responsive.js",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "module": "dist/react-responsive.mjs",
   "unpkg": "dist/react-responsive.umd.js",
   "types": "dist/react-responsive.d.ts",

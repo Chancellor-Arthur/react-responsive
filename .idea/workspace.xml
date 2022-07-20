@@ -2,32 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fabe7ab-f7ae-4e07-b0b8-e2a42df69f50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/App.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/auxiliary/parse.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/ExampleComponent.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/ExampleHook.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/components/MediaQuery.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/hook/useMediaQuery.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/react-responsive.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/react-responsive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/react-responsive.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/react-responsive.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/react-responsive.mjs.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/react-responsive.modern.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/react-responsive.modern.mjs.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/react-responsive.umd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/react-responsive.umd.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-responsive.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/react-responsive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react-responsive.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ExampleComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExampleComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExampleHook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExampleHook.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MediaQuery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MediaQuery.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hook/useMediaQuery.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hook/useMediaQuery.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +50,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -84,6 +74,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -95,7 +90,7 @@
       <updated>1657963015335</updated>
       <workItem from="1657963016609" duration="396000" />
       <workItem from="1657963519884" duration="467000" />
-      <workItem from="1658311834781" duration="2704000" />
+      <workItem from="1658311834781" duration="8883000" />
     </task>
     <servers />
   </component>
