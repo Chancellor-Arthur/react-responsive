@@ -1,6 +1,6 @@
 import React, {ReactNode} from 'react';
 import {useMediaQuery} from "../hook/useMediaQuery";
-import {parse} from "../auxiliary/parse";
+import {parse} from "../utils/parse";
 
 type RequireAtLeastOne<T, Keys extends keyof T = keyof T> =
     Pick<T, Exclude<keyof T, Keys>>
@@ -24,11 +24,11 @@ type MediaQueryComponentProps = {
 
 const MediaQuery =
     ({children, ...props}: MediaQueryComponentProps) => {
-        const answer = useMediaQuery({query: parse(props)});
+        const matches = useMediaQuery({query: parse(props)});
         return (
-            typeof (children) === 'function'
-                ? <div>{children(answer)}</div>
-                : answer ? <div>{children}</div> : null
+            (typeof children === 'function')
+                ? <>{children(matches)}</>
+                : matches ? <>{children}</> : null
         );
     };
 

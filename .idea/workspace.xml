@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0fabe7ab-f7ae-4e07-b0b8-e2a42df69f50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auxiliary/parse.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/parse.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ExampleComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExampleComponent.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ExampleHook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExampleHook.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MediaQuery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MediaQuery.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hook/useMediaQuery.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hook/useMediaQuery.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-responsive.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-responsive.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,9 @@
       <workItem from="1657963016609" duration="396000" />
       <workItem from="1657963519884" duration="467000" />
       <workItem from="1658311834781" duration="8946000" />
-      <workItem from="1658477504553" duration="1388000" />
+      <workItem from="1658477504553" duration="2784000" />
+      <workItem from="1658521958819" duration="68000" />
+      <workItem from="1658522301632" duration="650000" />
     </task>
     <servers />
   </component>

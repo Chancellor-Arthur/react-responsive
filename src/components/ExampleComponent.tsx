@@ -2,7 +2,7 @@ import React from 'react';
 import MediaQuery from "./MediaQuery";
 
 const ExampleComponent = () => (
-    <div>
+    <>
         <h1>Device Test!</h1>
         <MediaQuery minWidth={1224}>
             <p>You are a desktop or laptop</p>
@@ -19,7 +19,7 @@ const ExampleComponent = () => (
                     : <p>You are not retina</p>
             }
         </MediaQuery>
-    </div>
+    </>
 );
 
 export default ExampleComponent;

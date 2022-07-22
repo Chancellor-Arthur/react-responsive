@@ -1,15 +1,15 @@
 export const parse = (props: object): string => {
 
-    function styleHyphenFormat(propertyName: string) {
-        function upperToHyphenLower(match: string, offset: number) {
+    function camelCaseToKebabCase(propertyName: string) {
+        function replacer(match: string, offset: number) {
             return (offset > 0 ? '-' : '') + match.toLowerCase();
         }
-        return propertyName.replace(/[A-Z]/g, upperToHyphenLower);
+        return propertyName.replace(/[A-Z]/g, replacer);
     }
 
     let query: string = Object.entries(props)
         .map(element =>
-            `(${styleHyphenFormat(element[0])}: ${typeof (element[1]) === "number"
+            `(${camelCaseToKebabCase(element[0])}: ${typeof (element[1]) === "number"
                 ? element[1] + 'px'
                 : element[1]}) and`)
         .join(' ');
