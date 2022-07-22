@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fabe7ab-f7ae-4e07-b0b8-e2a42df69f50" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/react-responsive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react-responsive.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ExampleComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExampleComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExampleHook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExampleHook.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MediaQuery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MediaQuery.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hook/useMediaQuery.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hook/useMediaQuery.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-responsive.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-responsive.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "D:\\Projects\\react-responsive\\node_modules\\prettier",
-    "ts.external.directory.path": "D:\\Projects\\react-responsive\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Projects\\react-responsive\\node_modules\\prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Projects\\react-responsive\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="npm.build">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -90,7 +91,8 @@
       <updated>1657963015335</updated>
       <workItem from="1657963016609" duration="396000" />
       <workItem from="1657963519884" duration="467000" />
-      <workItem from="1658311834781" duration="8883000" />
+      <workItem from="1658311834781" duration="8946000" />
+      <workItem from="1658477504553" duration="1388000" />
     </task>
     <servers />
   </component>

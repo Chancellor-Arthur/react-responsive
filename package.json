@@ -2,7 +2,7 @@
   "name": "@chancellor-arthur/react-responsive",
   "source": "src/react-responsive.tsx",
   "main": "dist/react-responsive.js",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "module": "dist/react-responsive.mjs",
   "unpkg": "dist/react-responsive.umd.js",
   "types": "dist/react-responsive.d.ts",
@@ -22,6 +22,7 @@
     "prettier": "^2.7.1"
   },
   "scripts": {
+    "start": "react-scripts start",
     "build": "microbundle --no-compress --globals react=React --strict",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,8 +1,6 @@
 import React, {ReactNode} from 'react';
-import {default as useMediaQuery} from "../hook/useMediaQuery";
+import {useMediaQuery} from "../hook/useMediaQuery";
 import {parse} from "../auxiliary/parse";
-
-type formatString = `${number}dppx`;
 
 type RequireAtLeastOne<T, Keys extends keyof T = keyof T> =
     Pick<T, Exclude<keyof T, Keys>>
@@ -11,9 +9,9 @@ type RequireAtLeastOne<T, Keys extends keyof T = keyof T> =
 }[Keys]
 
 interface MediaQueryProps {
-    orientation?: number;
-    minResolution?: formatString | number;
-    maxResolution?: formatString | number;
+    orientation?: "portrait" | "landscape";
+    minResolution?: `${number}dppx` | number;
+    maxResolution?: `${number}dppx` | number;
     minWidth?: number;
     maxWidth?: number;
     minHeight?: number;

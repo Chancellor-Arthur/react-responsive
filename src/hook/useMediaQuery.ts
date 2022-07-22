@@ -4,7 +4,7 @@ interface Query {
     query: string;
 }
 
-const useMediaQuery = ({query}: Query): boolean => {
+export const useMediaQuery = ({query}: Query): boolean => {
     const [state, setState] = useState(() => window.matchMedia(query).matches);
 
     useEffect(() => {
@@ -17,5 +17,3 @@ const useMediaQuery = ({query}: Query): boolean => {
 
     return state;
 }
-
-export default useMediaQuery;

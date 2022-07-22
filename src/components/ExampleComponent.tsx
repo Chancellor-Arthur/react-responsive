@@ -1,5 +1,5 @@
 import React from 'react';
-import {default as MediaQuery} from "./MediaQuery";
+import MediaQuery from "./MediaQuery";
 
 const ExampleComponent = () => (
     <div>
